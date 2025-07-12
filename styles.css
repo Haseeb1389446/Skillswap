@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+  --primary: #007B86;
+  --secondary: #F16964;
+  --text-dark: #0A0A0A;
+  --bg-light: #F9F9F9;
+}
+
+body{
+    background-color: var(--bg-light);
+    height: 499vh;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0 50px;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 .logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 80px;
+}
+
+.nav1 a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2 button{
+    background: var(--secondary);
+    color: var(--bg-light);
+    padding: 5px 20px;
+    border-radius: 2px;
+    border: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img{
+    display: block;
+    margin: auto;
+    height: 500px;
+}
+
+.content h1{
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 80px;
+    position: relative;
+}
