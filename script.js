@@ -6,7 +6,7 @@ container.addEventListener("mousemove", function(event) {
         x: event.x,
         y: event.y,
         duration: 1,
-        ease: "power2.out",
+        ease: "back.out",
     })
 })
 
@@ -16,4 +16,8 @@ const lenis = new Lenis({
 
 lenis.on('scroll', (e) => {
   console.log(e);
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("loaded");
 });
