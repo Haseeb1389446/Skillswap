@@ -38,7 +38,7 @@
 body,
 .container {
   background-color: var(--bg-light);
-  /* height: 499vh; */
+  height: 499vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -467,3 +467,80 @@ button {
 }
 
 /* Log In End */
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 3vw 4vw;
+  background-color: var(--secondary);
+  position: relative;
+}
+
+/* Foot1 */
+
+.founder{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.founder-identity {
+  text-align: center;
+}
+
+.founder-identity img{
+  height: 8vw;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+}
+
+.founder-identity h2{
+  font-size: 1.5vw;
+  margin: 15px;
+  color: var(--bg-light);
+}
+
+.founder-note{
+  width: 30vw;
+}
+
+.founder-note p{
+  font-size: 1.5vw;
+  color: var(--bg-light);
+  margin-left: 50px;
+}
+
+.foot-navigation{
+  position: absolute;
+  bottom: 20px;
+}
+
+.foot-navigation a{
+  color: var(--bg-light);
+  padding: 2px 10px;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+
+/* Foot2 */
+
+.foot2 h3 {
+  color: var(--bg-light);
+  font-size: 3vw;
+}
+
+.foot2 a {
+  text-decoration: none;
+  padding: 30px;
+  color: var(--bg-light);
+  font-size: 2vw;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+
+/* Footer End */
