@@ -529,18 +529,31 @@ footer{
 
 /* Foot2 */
 
+.foot2 {
+  width: 50%;
+}
+
 .foot2 h3 {
   color: var(--bg-light);
   font-size: 3vw;
+  margin-bottom: 30px;
 }
 
-.foot2 a {
+.foot2 button {
+  text-align: start;
+  position: absolute;
+  bottom: 25px;
+  right: -49vw;
+}
+
+.foot2 button a{
   text-decoration: none;
-  padding: 30px;
+  padding: 20px;
   color: var(--bg-light);
   font-size: 2vw;
   background-color: var(--primary);
-  border-radius: 50%;
+  border-radius: 50px;
+  width:50%;
 }
 
 /* Footer End */
