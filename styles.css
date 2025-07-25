@@ -162,7 +162,7 @@ nav {
 /* Work Section */
 
 .work {
-  width: 90%;
+  width: 95%;
   display: block;
   margin: auto;
   margin-top: 200px;
@@ -225,7 +225,7 @@ nav {
 
 .posibilities {
   margin: auto;
-  padding: 10%;
+  padding: 7%;
   width: 100%;
   display: flex;
   align-items: start;
@@ -264,6 +264,148 @@ nav {
   font-size: 1.2vw;
   line-height: 2vw;
 }
+
+/* Posibilities Section End */
+
+/* Our Swapper */
+
+.our-swapper{
+  width: 95%;
+  padding: 5% 2%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.our-swapper h1{
+  font-size: 2.7vw;
+}
+
+.our-swapper p{
+  font-size: 1vw;
+  margin-top: .5vw;
+}
+
+.swappers-cards{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vw;
+  position: relative;
+  right: 10px;
+}
+
+.swapper-card{
+  padding: 30px;
+  text-align: center;
+  background-color: #8ebec52e;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.swapper-card h3{
+  font-size: 1vw;
+}
+
+.swapper-card p{
+  font-size: .8vw;
+}
+
+.swapper-card img{
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Our Swapper End */
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: 3vw 4vw;
+  background-color: var(--secondary);
+  position: relative;
+}
+
+/* Foot1 */
+
+.founder{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.founder-identity {
+  text-align: center;
+}
+
+.founder-identity img{
+  height: 8vw;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+}
+
+.founder-identity h2{
+  font-size: 1.5vw;
+  margin: 15px;
+  color: var(--bg-light);
+}
+
+.founder-note{
+  width: 30vw;
+}
+
+.founder-note p{
+  font-size: 1.5vw;
+  color: var(--bg-light);
+  margin-left: 50px;
+}
+
+.foot-navigation{
+  position: absolute;
+  bottom: 20px;
+}
+
+.foot-navigation a{
+  color: var(--bg-light);
+  padding: 2px 10px;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+
+/* Foot2 */
+
+.foot2 {
+  width: 50%;
+}
+
+.foot2 h3 {
+  color: var(--bg-light);
+  font-size: 3vw;
+  margin-bottom: 30px;
+}
+
+.foot2 button {
+  text-align: start;
+  position: absolute;
+  bottom: 25px;
+  right: -49vw;
+}
+
+.foot2 button a{
+  text-decoration: none;
+  padding: 20px;
+  color: var(--bg-light);
+  font-size: 2vw;
+  background-color: var(--primary);
+  border-radius: 50px;
+  width:50%;
+}
+
+/* Footer End */
 
 /* Sign Up */
 
@@ -468,92 +610,4 @@ button {
 
 /* Log In End */
 
-/* Footer */
 
-footer{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin: auto;
-  padding: 3vw 4vw;
-  background-color: var(--secondary);
-  position: relative;
-}
-
-/* Foot1 */
-
-.founder{
-  display: flex;
-  align-items: center;
-  margin-bottom: 3vw;
-}
-
-.founder-identity {
-  text-align: center;
-}
-
-.founder-identity img{
-  height: 8vw;
-  border-radius: 50%;
-  border: 3px solid var(--primary);
-}
-
-.founder-identity h2{
-  font-size: 1.5vw;
-  margin: 15px;
-  color: var(--bg-light);
-}
-
-.founder-note{
-  width: 30vw;
-}
-
-.founder-note p{
-  font-size: 1.5vw;
-  color: var(--bg-light);
-  margin-left: 50px;
-}
-
-.foot-navigation{
-  position: absolute;
-  bottom: 20px;
-}
-
-.foot-navigation a{
-  color: var(--bg-light);
-  padding: 2px 10px;
-  text-decoration: none;
-  font-size: 1.3vw;
-}
-
-/* Foot2 */
-
-.foot2 {
-  width: 50%;
-}
-
-.foot2 h3 {
-  color: var(--bg-light);
-  font-size: 3vw;
-  margin-bottom: 30px;
-}
-
-.foot2 button {
-  text-align: start;
-  position: absolute;
-  bottom: 25px;
-  right: -49vw;
-}
-
-.foot2 button a{
-  text-decoration: none;
-  padding: 20px;
-  color: var(--bg-light);
-  font-size: 2vw;
-  background-color: var(--primary);
-  border-radius: 50px;
-  width:50%;
-}
-
-/* Footer End */
