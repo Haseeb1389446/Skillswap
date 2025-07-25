@@ -38,7 +38,6 @@
 body,
 .container {
   background-color: var(--bg-light);
-  height: 499vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -316,6 +315,75 @@ nav {
 }
 
 /* Our Swapper End */
+
+/* FAQ */
+
+.faq {
+  width: 100vw;
+  padding: 5vw 0;
+}
+
+.faq h2 {
+  font-size: 44px;
+  color: var(--text-dark);
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.faq .contentBox {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.faq .question {
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: white;
+  padding: 20px;
+  background-color: var(--primary);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+    transition: .3s;
+  }
+  
+  .faq .contentBox .question::before {
+    content: "+";
+    position: absolute;
+    font-weight: 200;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+  }
+  
+  .faq .contentBox.active .question::before {
+    content: "×";
+  }
+  
+  .faq .question:hover {
+    background-color: #16606bee;
+  }
+  
+  .faq .answer {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: black;
+    font-size: 22px;
+    margin-top: 1px;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: .3s;
+  }
+
+.faq .contentBox.active .answer {
+    height: auto;
+    padding: 20px;
+}
+
+/* FAQ end */
 
 /* Footer */
 

@@ -21,3 +21,11 @@ lenis.on('scroll', (e) => {
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("loaded");
 });
+
+var faq = document.getElementsByClassName("contentBox");
+
+for (var i = 0; i < faq.length; i++) {
+  faq[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+}
