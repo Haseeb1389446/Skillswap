@@ -40,6 +40,7 @@ body,
   background-color: var(--bg-light);
   scroll-behavior: smooth;
   overflow-x: hidden;
+  margin: 0;padding: 0;
 }
 
 body {
@@ -369,6 +370,7 @@ nav {
   
   .faq .answer {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    line-height: 2vw;
     color: black;
     font-size: 22px;
     margin-top: 1px;
@@ -477,52 +479,15 @@ footer{
 
 /* Sign Up */
 
-.avatar {
-  position: absolute;
-  width: 250px;
-  height: 400px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 20;
-}
-
-.left-avatar {
-  left: -200px;
-  animation: slideInLeft 2s forwards;
-}
-
-.right-avatar {
-  right: -200px;
-  animation: slideInRight 2s forwards;
-}
-
-.avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-@keyframes slideInLeft {
-  to {
-    left: 5%;
-  }
-}
-
-@keyframes slideInRight {
-  to {
-    right: 5%;
-  }
-}
-
 .form-container {
   position: relative;
   z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 99vh;
   overflow-y: hidden;
-  background-color: #f16964;
+  background-image: url('images/bg.png');
 }
 
 .signup-card {
@@ -580,33 +545,13 @@ button {
 /* Log In */
 
 .login-container {
-  display: flex;
-  height: 100vh;
+  height: 99vh;
+  width: 100%;
   overflow-y: hidden;
-}
-
-.left {
-  width: 50%;
-  background: #f16964e4;
-  position: relative;
-  overflow: hidden;
-}
-
-.right {
-  width: 50%;
-  background-color: #165f6b;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.drop-image {
-  position: absolute;
-  top: -200px;
-  left: 50%;
-  width: 350px;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
+  background-image: url('images/bg.png');
 }
 
 .login-card {
@@ -646,7 +591,7 @@ button {
 }
 
 .login-card button:hover {
-  background-color: #005ecb;
+  background-color: #e15b56;
 }
 
 .login-card .link {
@@ -658,24 +603,5 @@ button {
   color: var(--primary);
   text-decoration: none;
 }
-
-/* Responsive for mobile */
-@media (max-width: 768px) {
-  .login-container {
-    flex-direction: column-reverse;
-  }
-
-  .left,
-  .right {
-    width: 100%;
-    height: 50%;
-  }
-
-  .drop-image {
-    width: 150px;
-  }
-}
-
-/* Log In End */
 
 

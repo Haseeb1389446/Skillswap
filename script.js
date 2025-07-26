@@ -1,5 +1,5 @@
 var container = document.querySelector('.container');
-var cursor = document.getElementById('cursor');
+var cursor = document.querySelector('.cursor');
 
 container.addEventListener("mousemove", function(event) {
     gsap.to(cursor, {
